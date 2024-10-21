@@ -18,7 +18,7 @@ interface RowRiwayatKerjaProps {
   
   function RowRiwayatPekerjaan(props: RowRiwayatKerjaProps) {
     return(
-        <div className="border-2 border-indigo-500/75 rounded-lg bg-gray-300 p-2 my-5">
+        <div className="border-2 border-indigo-500/75 rounded-lg bg-black p-2 my-5">
             <div className="container mx-auto">
             <div className="grid grid-cols-12 gap-1">
                 <div className="col-span-12 md:col-span-4">{props.tahunbekerja}</div>
